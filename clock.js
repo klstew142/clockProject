@@ -26,11 +26,3 @@ let clock = () => {
 
 };
     clock();
-
-
-//Background
-    let deg = 0;
-
-setInterval(function() {
-  deg < 360 ? deg++ : deg = 0;
-}, 5);
