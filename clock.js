@@ -19,7 +19,7 @@ let clock = () => {
     mins = mins < 10 ? "0" + mins : mins;
     secs = secs < 10 ? "0" + secs : secs;
 
-    let time = `${hrs}:${mins}:${secs}`
+    let time = `${hrs}:${mins}:${secs} ${timeOfDay}`
     //refresh time - 1 second
       setInterval(clock, 1000);
       document.getElementById("clock").innerText = time;
