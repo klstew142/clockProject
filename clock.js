@@ -3,6 +3,15 @@ let clock = () => {
     let hrs = date.getHours();
     let mins = date.getMinutes();
     let secs = date.getSeconds();
+    let timeOfDay = "AM"
+
+    if (hrs === 0){
+        hrs = 12;
+    }
+    else if (hrs > 12){
+        hrs %= 12;
+        timeOfDay ="PM";
+    };
 
 
 //Makes the clock show double figures at all times
@@ -15,5 +24,13 @@ let clock = () => {
       setInterval(clock, 1000);
       document.getElementById("clock").innerText = time;
 
-}
+};
     clock();
+
+
+//Background
+    let deg = 0;
+
+setInterval(function() {
+  deg < 360 ? deg++ : deg = 0;
+}, 5);

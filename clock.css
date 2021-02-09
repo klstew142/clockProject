@@ -1,7 +1,15 @@
 body {
-    background-color: lightslategrey;
+    background: linear-gradient(50deg, #1162fb, #c96dd8, #11dafb);
+    background-size: 800% 800%;
+    animation: gradient 20s ease infinite;
+  }
+  
+  @keyframes gradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%; }
+	100% {background-position: 0% 50%;}
 }
-
+  
 #clock{
     border:1px solid white;
     border-radius: 10px;
@@ -12,5 +20,5 @@ body {
     margin: 100px;
     font-family: 'Anton', sans-serif;
     font-size: 100px;
-    color: #9046CF;
+    color: whitesmoke;
 }
