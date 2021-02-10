@@ -2,6 +2,12 @@ body {
     background: linear-gradient(50deg, #330036, #E574BC,#330036);
     background-size: 800% 800%;
     animation: gradient 20s ease infinite;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   @keyframes gradient {
@@ -14,9 +20,6 @@ body {
     border:1px solid white;
     border-radius: 10px;
     background-color:rgba(20, 17, 15, .5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 100px;
     font-family: 'Anton', sans-serif;
     font-size: 100px;
