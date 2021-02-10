@@ -39,3 +39,23 @@
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
+
+/*hands*/
+
+.hour{
+    width: 10px;
+    height: 25%;
+    background-color: black;
+}
+
+.minute{
+    width: 10px;
+    height: 35%;
+    background-color: black;
+}
+
+.second {
+    width: 3px;
+    height: 35%;
+    background-color: #ff0000;
+  }
