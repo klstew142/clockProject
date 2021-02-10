@@ -26,12 +26,3 @@ let clock = () => {
 
 };
     clock();
-
-//Analogue
-
-//hour
-let hourHand = document.querySelector('.hour');
-//minute
-let minuteHand = document.querySelector('.minute');
-//second
-let secondHand = document.querySelector('.second')
