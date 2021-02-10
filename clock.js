@@ -21,7 +21,7 @@ let clock = () => {
 
     let time = `${hrs}:${mins}:${secs} ${timeOfDay}`
     //refresh time - 1 second
-      setInterval(clock, 1000);
+      setTimeout(clock, 1000);
       document.getElementById("clock").innerText = time;
 
 };
