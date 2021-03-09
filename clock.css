@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(50deg, #330036, #E574BC,#330036);
     background-size: 800% 800%;
-    animation: gradient 20s ease infinite;
+    animation: gradient 50s ease infinite;
     min-width: 100vw;
     min-height: 100vh;
     overflow: hidden;
@@ -18,11 +18,18 @@ body {
 	100% {background-position: 0% 50%;}
 }
   
+#clockbody{
+  background-color: grey;
+  border:10px solid black;
+  border-radius: 10%;
+  padding: 50px 10px 10px 10px;
+}
 #clock{
     border:1px solid white;
     border-radius: 10px;
     background-color:rgba(20, 17, 15, .5);
-    margin: 100px;
+    margin: 20px;
+    padding: 15px 15px 15px 15px;
     font-family: 'Anton', sans-serif;
     font-size: 100px;
     color: whitesmoke;
